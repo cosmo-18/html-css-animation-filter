@@ -59,7 +59,6 @@
 .ex-3-square:hover{
 animation-name: box_border-radius;
 animation-duration: 2s;
-border-radius: 100px;
 }
 
 @keyframes box_border-radius{
@@ -96,4 +95,8 @@ border-radius: 100px;
   100%{
     border-radius: 100%;
   }
+}
+
+.ex-4-square:hover{
+  color: rgba(0, 0, 0, 128);
 }
